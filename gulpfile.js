@@ -9,4 +9,4 @@ gulp.task('css', function () {
     .pipe(gulp.dest('./dist/'));
 });
 
-exports.build = series(css);
+exports.build = (css);
