@@ -109,60 +109,60 @@ https://templatemo.com/tm-567-nomad-force
                         </div>
                         
                         <div class="col-lg-2 col-12">
-                            <div id="light">
-                                <a href="#content" class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
-                                <video id="VisaChipCardVideo" width="600" controls>
+                            <div id="light1">
+                                <a href="#content" class="boxclose" id="boxclose" onclick="lightbox_close1();"></a>
+                                <video id="VisaChipCardVideo1" width="600" controls>
                                     <source src="images/portfolio/video/Video-2.mp4" type="video/mp4">
                                 </video>
                             </div>
-                            <div id="fade" onClick="lightbox_close();"></div>
+                            <div id="fade1" onClick="lightbox_close1();"></div>
                             <div class="portfolio-thumb mb-2" data-aos="fade-up">
-                                <a href="#" onclick="lightbox_open();" class="image-popup news-image-hover news-image-hover-warning">
+                                <a href="#" onclick="lightbox_open1();" class="image-popup news-image-hover news-image-hover-warning">
                                     <img src="images/portfolio/video/Video-2.png" class="img-fluid img-fluid large-news-image news-image" alt="">
                                 </a>
                             </div>
                         </div>
                         
                         <div class="col-lg-2 col-12">
-                            <div id="light">
-                                <a href="#content" class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
-                                <video id="VisaChipCardVideo" width="600" controls>
+                            <div id="light2">
+                                <a href="#content" class="boxclose" id="boxclose" onclick="lightbox_close2();"></a>
+                                <video id="VisaChipCardVideo2" width="600" controls>
                                     <source src="images/portfolio/video/Video-3.mp4" type="video/mp4">
                                 </video>
                             </div>
-                            <div id="fade" onClick="lightbox_close();"></div>
+                            <div id="fade2" onClick="lightbox_close2();"></div>
                             <div class="portfolio-thumb mb-2" data-aos="fade-up">
-                                <a href="#" onclick="lightbox_open();" class="image-popup news-image-hover news-image-hover-warning">
+                                <a href="#" onclick="lightbox_open2();" class="image-popup news-image-hover news-image-hover-warning">
                                     <img src="images/portfolio/video/Video-3.png" class="img-fluid img-fluid large-news-image news-image" alt="">
                                 </a>
                             </div>
                         </div>
                         
                         <div class="col-lg-2 col-12">
-                            <div id="light">
-                                <a href="#content" class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
-                                <video id="VisaChipCardVideo" width="600" controls>
+                            <div id="light3">
+                                <a href="#content" class="boxclose" id="boxclose" onclick="lightbox_close3();"></a>
+                                <video id="VisaChipCardVideo3" width="600" controls>
                                     <source src="images/portfolio/video/Video-4.m4v" type="video/mp4">
                                 </video>
                             </div>
-                            <div id="fade" onClick="lightbox_close();"></div>
+                            <div id="fade3" onClick="lightbox_close3();"></div>
                             <div class="portfolio-thumb mb-2" data-aos="fade-up">
-                                <a href="#" onclick="lightbox_open();" class="image-popup news-image-hover news-image-hover-warning">
+                                <a href="#" onclick="lightbox_open3();" class="image-popup news-image-hover news-image-hover-warning">
                                     <img src="images/portfolio/video/Video-4.png" class="img-fluid img-fluid large-news-image news-image" alt="">
                                 </a>
                             </div>
                         </div>
                         
                         <div class="col-lg-2 col-12">
-                            <div id="light">
-                                <a href="#content" class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
-                                <video id="VisaChipCardVideo" width="600" controls>
+                            <div id="light4">
+                                <a href="#content" class="boxclose" id="boxclose" onclick="lightbox_close4();"></a>
+                                <video id="VisaChipCardVideo4" width="600" controls>
                                     <source src="images/portfolio/video/Video-5.m4v" type="video/mp4">
                                 </video>
                             </div>
-                            <div id="fade" onClick="lightbox_close();"></div>
+                            <div id="fade4" onClick="lightbox_close4();"></div>
                             <div class="portfolio-thumb mb-2" data-aos="fade-up">
-                                <a href="#" onclick="lightbox_open();" class="image-popup news-image-hover news-image-hover-warning">
+                                <a href="#" onclick="lightbox_open4();" class="image-popup news-image-hover news-image-hover-warning">
                                     <img src="images/portfolio/video/Video-5.png" class="img-fluid img-fluid large-news-image news-image" alt="">
                                 </a>
                             </div>
@@ -218,32 +218,7 @@ https://templatemo.com/tm-567-nomad-force
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/scrollspy.min.js"></script>
         <script src="js/custom.js"></script>
-
-        <script>
-            window.document.onkeydown = function(e) {
-            if (!e) {
-                e = event;
-            }
-            if (e.keyCode == 27) {
-                lightbox_close();
-            }
-            }
-
-            function lightbox_open() {
-            var lightBoxVideo = document.getElementById("VisaChipCardVideo");
-            window.scrollTo(0, 0);
-            document.getElementById('light').style.display = 'block';
-            document.getElementById('fade').style.display = 'block';
-            lightBoxVideo.play();
-            }
-
-            function lightbox_close() {
-            var lightBoxVideo = document.getElementById("VisaChipCardVideo");
-            document.getElementById('light').style.display = 'none';
-            document.getElementById('fade').style.display = 'none';
-            lightBoxVideo.pause();
-            }
-        </script>
+        <script src="js/vidpop.js"></script>
 
     </body>
 </html>
