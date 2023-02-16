@@ -1,283 +1,438 @@
 <!doctype html>
-<html lang="en">
+<html class="h-100" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="Hi, I'm Nurunnjaiha and this is my websites">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/nnlogo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/nnlogo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/nnlogo.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/nnlogo.png">
+  <meta name="generator" content="Eleventy v2.0.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>Nurunnajiha Sites</title>
+  <link rel="stylesheet" href="css/theme.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-    <title>NNSites</title>
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-    <!-- CSS FILES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;700;900&display=swap"
-        rel="stylesheet">
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/magnific-popup.css">
-
-    <link href="css/aos.css" rel="stylesheet">
-
-    <link href="css/templatemo-nomad-force.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
 
-    <main>
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="index.html">
+        <img src="img/nnlogobig.png" class="img-fluid" alt="nice gallery image"
+                    width="50" height="50">
+        <!-- <span class="ms-1 fw-bolder">NN</span> -->
+      </a>
 
-        <section class="hero" id="hero">
-            <div class="heroText">
-                <h1 class="text-white mt-5 mb-lg-4" data-aos="zoom-in" data-aos-delay="800">
-                    Hi, I'm Nurunnajiha
-                </h1>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutme">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#artwork">
+              Artworks
+            </a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#experience">
+              Experience
+            </a>
+          </li> -->   
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">
+              Skills
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">
+              Contact Me
+            </a>
+          </li>
 
-                <p class="text-secondary-white-color" data-aos="fade-up" data-aos-delay="1000">
-                    Welcome to my world
-                </p>
-            </div>
+        </ul>
 
-            <div class="videoWrapper">
-                <video autoplay="" loop="" muted="" class="custom-video">
-                    <source src="videos/video-2.mp4" type="video/mp4">
+      </div>
+    </div>
+  </nav>
 
-                    Your browser does not support the video tag.
-                </video>
-            </div>
+  <main>
+    <div class="w-100 overflow-hidden bg-gray-100" id="top">
 
-            <div class="overlay"></div>
-        </section>
+      <div class="container position-relative">
+        <div class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left"
+          style="background-image: url(img/webp/interior11.webp);">
 
-        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <strong>Nurunnajiha</strong>
-                </a>
+        </div>
+        <div class="row">
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+          <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
+            <h1 class="display-1 fw-bold mt-5">Hi! I'm Nurunnajiha</h1>
+            <p class="lead">Welcome to my Website!</p>
+            <a href="#aboutme" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Take a tour</a>
+          </div>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#hero">Home</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About Me</a>
-                        </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                    </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutme">
+      <div class="container">
+
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <div class="row gx-5 d-flex">
+              <div class="col-md-11">
+                <div class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right"
+                  style="background-image: url(img/aboutme1.jpg);--bs-aspect-ratio: 50%;">
                 </div>
+              </div>
+              <div class="col-md-5 offset-md-1">
+                <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up"
+                  style="background-image: url(img/webp/interior42.webp);">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left"
+                  style="background-image: url(img/aboutme2.jpg);--bs-aspect-ratio: 150%;">
+                </div>
+              </div>
             </div>
-        </nav>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="py-5 border-top border-dark" data-aos="fade-left">About Me</h3>
+            <p data-aos="fade-left" data-aos-delay="200">Dynamic and innovative individual with 2 years of invaluable
+              hands-on experience in handling several simulteneous creative design projects, concept creation, graphic
+              design, and visual conceptualization. Keen to pursue a career as a Graphic Designer at any reputed company
+              to grow professionally and contribute my skills towards the society.
+            </p>
+            <p>
+              <a href="#experience" class="link-fancy link-dark" data-aos="fade-left" data-aos-delay="400">My Experience
+              </a>
+            </p>
+          </div>
+        </div>
 
-        <section class="section-padding pb-0" id="about">
-            <div class="container mb-5 pb-lg-5">
-                <div class="row">
-                    <div class="col-12">
-                        <h2 class="mb-3" data-aos="fade-up">About Me</h2>
-                    </div>
+      </div>
+    </div>
 
-                    <div class="col-lg-6 col-12 mt-3 mb-lg-5">
-                        <p class="me-4" data-aos="fade-up" data-aos-delay="300">
-                            A highly motivated, enthusiastic, dedicated and dynamic entry-level designer with good
-                            knowledge, technical skills and communication skills. Looking for new challenge where
-                            I can learn and explore new skills and while expanding my knowledge. Looking forward
-                            to collaborate and gain more experience in new instituition.
-                        </p>
-                    </div>
-
-                    <div class="col-lg-6 col-12 mt-lg-3 mb-lg-5">
-                        <p data-aos="fade-up" data-aos-delay="500">
-                            I try to seek all possible opportunities to help me advance my skills in Graphic Design, and
-                            feel that having the opportunity to take my admiration of design to degree level would be
-                            extremely rewarding.
-                        </p>
-                    </div>
-
-                </div>
+    <!-- AB 15.1.2023 artwork -->
+    <div class="container">
+      <div class="row py-vh-4 d-fex justify-content-center" id="artwork">
+        <div class="col-lg-12 text-center" data-aos="fade">
+          <h3 class="py-5 border-top border-dark" data-aos="fade-left">My Artworks</h3>
+          <div class="row gx-5 d-flex justify-content-center align-items-center">
+            <div class="col-md-4 py-5">
+              <a href="artwork1.html">
+                <div class="aos-init aos-animate shadow ratio ratio-4x3 rounded bg-cover bp-center align-self-end"
+                  data-aos="fade-up" data-aos-duration="1500"
+                  style="background-image: url(img/artworkbutton/BUTTON-01.jpg);"></div>
+              </a>
+              <a href="artwork2.html">
+                <div class="aos-init aos-animate shadow ratio ratio-4x3 rounded bg-cover bp-center float-end mt-4"
+                data-aos="fade-up" data-aos-duration="1500" style="background-image: url(img/artworkbutton/BUTTON-02.jpg);"></div>
+              </a>
             </div>
-        </section>
-
-        <section class="section-padding  bg-dark" id="portfolio">
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-12">
-                        <h2 class="mb-5 text-center text-light" data-aos="fade-up">Portfolio</h2>
-                    </div>
-
-                    <div class="row mb-5">
-                        <div class="offset-lg-1 col-lg-2 col-12">
-                            <div class="portfolio-thumb" data-aos="fade-up">
-                                <a href="banner.html" class="news-image-hover news-image-hover-dark">
-                                    <img src="images/portfolio/banner.png"
-                                        class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light text-light">Banners</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2 col-12">
-                            <div class="portfolio-thumb" data-aos="fade-up">
-                                <a href="desktop_publishing.html" class="news-image-hover news-image-hover-olive img-fluid portfolio-image">
-                                    <img src="images/portfolio/deskstoppublishing.gif" class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light">Deskstop</h6>
-                                    <p class="text-warning">Publishing</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="portfolio-thumb mt-lg-0" data-aos="fade-up">
-                                <a href="drawing.html" class="news-image-hover news-image-hover-olive">
-                                    <img src="images/portfolio/drawing.png"
-                                        class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light">Drawings</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="portfolio-thumb" data-aos="fade-up">
-                                <a href="handcraft.html" class="news-image-hover news-image-hover-olive">
-                                    <img src="images/portfolio/handcraft.png"
-                                        class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light">Handcrafts</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="portfolio-thumb" data-aos="fade-up">
-                                <a href="video.html" class="news-image-hover news-image-hover-olive">
-                                    <img src="images/portfolio/video.gif" class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light">Video</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row mb-3">
-                        <div class="offset-lg-2 col-lg-2">
-                            <div class="portfolio-thumb" data-aos="fade-up">
-                                <a href="manipulation.html" class="news-image-hover news-image-hover-olive">
-                                    <img src="images/portfolio/manipulation.png"
-                                        class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light">Manipulation</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="portfolio-thumb" data-aos="fade-up">
-                                <a href="poster.html" class="news-image-hover news-image-hover-olive">
-                                    <img src="images/portfolio/poster.png" class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light">Poster</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="portfolio-thumb" data-aos="fade-up">
-                                <a href="packaging.html" class="news-image-hover news-image-hover-olive">
-                                    <img src="images/portfolio/packaging.png"
-                                        class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light">Packagings</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-2">
-                            <div class="portfolio-thumb mt-lg-0" data-aos="fade-up">
-                                <a href="logo.html" class="news-image-hover news-image-hover-olive">
-                                    <img src="images/portfolio/logo.png"
-                                        class="img-fluid portfolio-image" alt="">
-                                </a>
-    
-                                <div class="portfolio-info text-center">
-                                    <h6 class="portfolio-title mb-0 text-light">Logo</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+  
+            <div class="col-md-4 py-5">
+              <a href="artwork3.html">
+                <div class="aos-init aos-animate shadow ratio ratio-4x3 rounded bg-cover bp-center float-end" data-aos="fade-up"
+                  data-aos-duration="1500" style="background-image: url(img/artworkbutton/BUTTON-03.jpg);">
                 </div>
+              </a>
+              <a href="artwork4.html">
+                <div class="aos-init aos-animate shadow ratio ratio-4x3 rounded bg-cover bp-center float-end mt-4" data-aos="fade-up"
+                  data-aos-duration="1500" style="background-image: url(img/artworkbutton/BUTTON-04.jpg);">
+                </div>
+              </a>
             </div>
-        </section>
-
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h5 class="text-white">
-                        <i class="bi-geo-alt-fill me-2"></i>
-                        Bandar Baru Bangi, Selangor
-                    </h5>
-
-                    <a href="mailto:info@company.com" class="custom-link mt-1 mb-1">
-                        najihahalim3@gmail.com
-                    </a>
-                </div>
-
-                <div class="col-6">
-                    <a class="copyright-text mb-0">Copyright © Nurunnajiha 2022</a>
-                </div>
-
-                <div class="col-lg-3 col-5 ms-auto">
-                    <ul class="social-icon">
-                        <li><a href="https://www.linkedin.com/in/nurunnajiha-ab-halim-585708226/" class="social-icon-link bi-linkedin"></a></li>
-
-                        <li><a href="https://www.youtube.com/channel/UCNTIHW6Jnt3y2DN_9c72SGA" class="social-icon-link bi-youtube"></a></li>
-
-                        <li><a href="subsites/index.html" class="social-icon-link bi-facebook"></a></li>
-                    </ul>
-                </div>
-
+  
+            <div class="col-md-4">
+              <a href="artwork5.html">
+                <div class="aos-init aos-animate shadow ratio ratio-4x3 rounded bg-cover bp-center float-end"
+                  data-aos="fade-up" data-aos-duration="1500" style="background-image: url(img/artworkbutton/BUTTON-05.jpg);"></div>
+              </a>
+              <a href="artwork6.html">
+                <div class="aos-init aos-animate shadow ratio ratio-4x3 rounded bg-cover bp-center float-end mt-4"
+                data-aos="fade-up" data-aos-duration="1500" style="background-image: url(img/artworkbutton/BUTTON-06.jpg);"></div>
+              </a>
             </div>
-            </section>
-    </footer>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- AB (E) -->
 
-    <!-- JAVASCRIPT FILES -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/magnific-popup-options.js"></script>
-    <script src="js/scrollspy.min.js"></script>
-    <script src="js/custom.js"></script>
+    <div class="py-vh-3 bg-gray-900 text-light w-100 overflow-hidden" id="skills">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-12 text-center" data-aos="fade">
+              <h3 class="py-5 border-top border-light" data-aos="fade-left">Skills</h3>
+              <div class="row">
+                <div class="col-md-3 col-lg-2 " data-aos="fade-up">
+                  <img src="img/skills/ai.png" class="img-fluid" alt="nice gallery image"
+                    width="512" height="341">
+                </div>
+                <div class="col-md-3 col-lg-2" data-aos="fade-up">
+                  <img src="img/skills/ps.png" class="img-fluid" alt="nice gallery image"
+                    width="512" height="341">
+                </div>
+                <div class="col-md-3 col-lg-2" data-aos="fade-up">
+                  <img src="img/skills/id.png" class="img-fluid" alt="nice gallery image"
+                    width="512" height="341">
+                </div>
+                <div class="col-md-3 col-lg-2" data-aos="fade-up">
+                  <img src="img/skills/ae.png" class="img-fluid" alt="nice gallery image"
+                    width="512" height="341">
+                </div>
+              </div>
+              <div class="row">
+                <div class="offset-md-1 col-md-3 col-lg-2 " data-aos="fade-up">
+                  <img src="img/skills/filmora.png" class="img-fluid" alt="nice gallery image"
+                    width="140" height="140">
+                </div>
+                <div class="offset-md-1 col-md-2 col-lg-2" data-aos="fade-up">
+                  <img src="img/skills/mso.png" class="img-fluid" alt="nice gallery image"
+                    width="512" height="341">
+                </div>
+                <div class="offset-md-1 col-md-3 col-lg-2" data-aos="fade-up">
+                  <img src="img/skills/canva.png" class="img-fluid" alt="nice gallery image"
+                    width="512" height="341">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden py-5 border-top border-dark">
+      <div class="container">
+          <div class="row text-center d-flex justify-content-center gx-0 py-3">
+              <div class="col-lg-12" data-aos="fade-left">
+                  <div class="aos-init aos-animate ratio ratio-16x9 rounded bg-cover bp-center align-self-end ms-4"
+                  data-aos="fade-up" data-aos-duration="1500"
+                  style="background-image: url(img/aboutme/1.png);--bs-aspect-ratio: 50%;"></div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <!-- <div class="py-vh-2 bg-gray-900 text-light w-100 overflow-hidden" id="experience">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-12 bg-gray-900 text-light">
+            <div class="row d-flex align-items-center px-5 py-3">
+              <div class="col-lg-12 text-center" data-aos="fade">
+                <h3 class="py-5 border-top border-dark" data-aos="fade-left">Experience</h3>
+              </div>
+            </div>
+            <div class="row d-flex align-items-center" data-aos="fade-up">
+              <div class="offset-md-3 col-12 col-lg-3 text-start px-5">
+                <div class="row py-3">
+                  <div class="col-lg-12">
+                    <img src="img/Experience/JAN.png" class="img-fluid" alt="nice gallery image"
+                    width="400" height="400">
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-lg-12">
+                    <p class="pb-5 mb-5 text-light" style="--bs-text-opacity: .5;">
+                      Mar 2022 - Present
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="offset-md-3 col-12 col-lg-3 text-start px-5">
+                <div class="row py-3">
+                  <div class="col-lg-12">
+                    <img src="img/Experience/JN.jpg" class="img-fluid" alt="nice gallery image"
+                    width="400" height="400">
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-lg-12">
+                    <p class="pb-5 mb-5 text-light" style="--bs-text-opacity: .5;">
+                      Oct 2021 - Feb 2022
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="offset-md-3 col-12 col-lg-3 text-start px-5">
+                <div class="row py-3">
+                  <div class="col-lg-12">
+                    <img src="img/Experience/APG.jpg" class="img-fluid" alt="nice gallery image"
+                    width="400" height="400">
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-lg-12">
+                    <p class="pb-5 mb-5 text-light" style="--bs-text-opacity: .5;">
+                      Jan 2021 - June 2021
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="offset-md-3 col-12 col-lg-3 text-start px-5">
+                <div class="row py-3">
+                  <div class="col-lg-12">
+                    <img src="img/Experience/TI.png" class="img-fluid" alt="nice gallery image"
+                    width="400" height="400">
+                  </div>
+                </div>
+                <div class="row text-center">
+                  <div class="col-lg-12">
+                    <p class="pb-5 mb-5 text-light" style="--bs-text-opacity: .5;">
+                      2020 - 2021
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row d-flex align-items-center" data-aos="fade-up">
+              <div class="offset-md-3 col-12 col-lg-3 text-start px-5">
+                <div class="row text-center">
+                  <div class="col-lg-12">
+                    <p class="pb-5 mb-5 text-light" style="--bs-text-opacity: .5;">
+                      Mar 2022 - Present
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="offset-md-3 col-12 col-lg-3 text-start px-5">
+                <div class="row text-center">
+                  <div class="col-lg-12">
+                    <p class="pb-5 mb-5 text-light" style="--bs-text-opacity: .5;">
+                      Oct 2021 - Feb 2022
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="offset-md-3 col-12 col-lg-3 text-start px-5">
+                <div class="row text-center">
+                  <div class="col-lg-12">
+                    <p class="pb-5 mb-5 text-light" style="--bs-text-opacity: .5;">
+                      Jan 2021 - June 2021
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="offset-md-3 col-12 col-lg-3 text-start px-5">
+                <div class="row text-center">
+                  <div class="col-lg-12">
+                    <p class="pb-5 mb-5 text-light" style="--bs-text-opacity: .5;">
+                      2020 - 2021
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  </main>
+
+  <footer class="bg-gray-900 text-light w-100 overflow-hidden">
+    <div class="container small border-top" id="footer">
+      <div class="row py-3 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-4 border-end p-5">
+          <a href="https://www.youtube.com/channel/UCNTIHW6Jnt3y2DN_9c72SGA">
+            <i class="fa fa-youtube-play text-light"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nurunnajiha-ab-halim-585708226/" class="px-4">
+            <i class="fa fa-linkedin text-light"></i>
+          </a>
+          <address class="text-secondary mt-3">
+            <strong>Bandar Baru Bangi</strong><br>
+            Selangor, Malaysia<br>
+            <abbr title="Phone">Email:</abbr>
+            najihahalim3@gmail.com
+          </address>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
+
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
+
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
+
+      console.log(scrollpos)
+    })
+  </script>
 
 </body>
 
